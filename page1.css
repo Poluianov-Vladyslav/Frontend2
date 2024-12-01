@@ -1,0 +1,48 @@
+body {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+.cart  {
+    height: 40px;
+}
+.table {
+    border-spacing: 10px;
+}
+.table button:hover {
+    background-color: aqua;
+}
+.search-bar input  {
+    width: 80%;
+}
+.search-bar {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
+.table h1{
+    border: 1px solid #ccc;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.item-card {
+    max-width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.item-details {
+    padding-bottom: 10px;
+    width: 100%;
+}
+.item-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+.buy-button{
+    height: 40px;
+}
+.first-row{
+    border-bottom: 2px solid black;/*мала намалювати границю між першим та іншими рядками, але не вийшло*/
+}
