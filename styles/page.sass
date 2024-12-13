@@ -1,0 +1,70 @@
+$myborder: black solid 1px
+$fullwidth: 100%
+%search-pol
+  float: right
+  border-radius: 4px
+  margin-top: 25px
+body
+  max-width: 1000px
+  width: $fullwidth
+  margin: 0 auto
+
+#center
+  overflow-y: auto
+  width: 60%
+  float: left
+  margin-left: 2%
+  max-height: 600px
+
+header
+  width: $fullwidth
+  display: inline-block
+  margin-top: 10px
+  border: $myborder
+
+  #logo
+    margin-left: 20px
+    padding: 5px 45px 5px 45px
+    float: left
+    border: $myborder
+
+  #search
+    height: 40px
+    font-size: 16px
+    @extend %search-pol
+
+  #search-button
+    margin-right: 20px
+    height: 45px
+    cursor: pointer
+    @extend %search-pol
+
+#top-list
+  width: $fullwidth
+  display: inline-block
+  text-align: center
+  border: $myborder
+  margin-bottom: 10px
+
+  .top-link
+    margin: 5px 30px 5px 30px
+
+a
+  color: black
+  text-decoration: none
+
+  &:link
+    text-decoration: none
+
+img
+  width: $fullwidth
+
+#left-list, #right-list
+  min-height: 400px
+  width: 18%
+  float: left
+  border: $myborder
+  margin-bottom: 10px
+
+#right-list
+  float: right

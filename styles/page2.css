@@ -1,0 +1,161 @@
+.step-for-all button, .step-for-all .step-for article, .second-container .second-container-text article, .first-container button, header .register-button, header .logo {
+  border: 1px solid black;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+body {
+  max-width: 1200px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo {
+  padding: 5px 45px;
+  margin-right: 20px;
+  height: 40px;
+}
+header .register-button {
+  cursor: pointer;
+  background-color: #f5f5f5;
+}
+header .register-button:hover {
+  background-color: #33ffff;
+  cursor: pointer;
+}
+
+.first-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+.first-container img {
+  flex: 1;
+  height: auto;
+  border: 1px solid black;
+}
+.first-container button {
+  cursor: pointer;
+  background-color: #f5f5f5;
+}
+.first-container button:hover {
+  background-color: #33ffff;
+  cursor: pointer;
+}
+
+.second-container {
+  padding-top: 20px;
+  background-image: url("https://img.freepik.com/premium-photo/travel-plan-trip-vacation-accessories-trip-tourism-mockup_34435-592.jpg?ga=GA1.1.1004447303.1732873725&semt=ais_hybrid");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.second-container .second-container-text {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.second-container .second-container-text article {
+  flex: 1;
+  text-align: center;
+}
+.second-container .second-container-text article p {
+  text-align: left;
+}
+
+.step-for-all .step-for {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.step-for-all .step-for h3 {
+  flex-basis: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.step-for-all .step-for article {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 100px;
+  max-width: 200px;
+}
+.step-for-all .step-for article .number {
+  font-size: 54px;
+  color: #555;
+  margin-bottom: 10px;
+  float: left;
+  height: 100%;
+}
+.step-for-all .step-for article .describe {
+  float: right;
+}
+.step-for-all button {
+  cursor: pointer;
+  background-color: #f5f5f5;
+}
+.step-for-all button:hover {
+  background-color: #33ffff;
+  cursor: pointer;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-top: 1px solid black;
+  padding-top: 20px;
+  margin-top: auto;
+}
+footer .logo {
+  margin-top: 0;
+}
+
+.button {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.link-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 0;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .first-container {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=page2.css.map */
